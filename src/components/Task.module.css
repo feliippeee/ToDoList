@@ -1,0 +1,115 @@
+.content {
+    width: 46rem;
+    
+}
+.commentForm {
+    margin-top: calc(0px - 1.5rem - 6px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+}
+
+.commentForm input {
+    width: 100%;
+    background: var(--gray-500);
+    border: 0;
+    resize: none;
+    height: 3.25rem;
+    padding: 1rem;
+    border-radius: 8px;
+    color: var(--gray-300);
+    line-height: 1.4;
+    font-size: 1rem;
+
+}
+.commentForm input:hover{
+    color: var(--gray-100);
+}
+ .commentForm footer button[type="submit"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--blue-dark);
+    color: var(--gray-100);
+    border: 0;
+    width: 90px;
+    border-radius: 8px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    line-height: 1.4;
+    height: 3.25rem;
+    cursor: pointer;
+    gap: 0.5rem;
+ }
+
+ .commentForm footer button[type="submit"]:hover {
+     background: var(--blue);
+ }
+ .headerTaksTitle {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.headerTaksTitle > div {
+    color: var(--blue);
+    font-size: 0.875rem;
+    font-weight: bold;
+}
+
+.headerTaksTitle div span {
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding: 0.125rem 0.5rem; 
+    background: var(--gray-400);
+    border-radius: 8px;
+
+    color: var(--gray-200);
+}
+
+.headerTaksTitle > div + div {
+    color: var(--purple);
+}
+.container footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 15.25rem;
+    border-top: 1px solid var(--gray-400);
+    border-radius: 8px;
+}
+
+.container footer img {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.container footer > p {
+    font-size: 1rem;
+    color: var(--gray-300);
+    font-weight: bold;
+    
+}
+
+
+.container footer p + p {
+    font-weight: normal;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.img svg {
+    width: 100%;
+    height: 100%;
+}
+
+
+

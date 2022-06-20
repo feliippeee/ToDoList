@@ -1,0 +1,134 @@
+.container {
+    margin-top: 1.5rem;
+    background: transparent;
+    border: 0;
+    color: var(--gray-100);
+}
+.newTask {
+    background: var(--gray-500);
+    display: grid;
+    grid-template-columns: 1fr 39.5rem 1fr;
+    padding: 16px;
+    margin-bottom: 12px;
+    font-size: 0.875rem;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.newTask button {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    cursor: pointer;
+    border-radius: 4px;
+    background: var(--gray-500);
+    background: transparent;
+}
+.newTask button svg {
+    width: 14px;
+    height: 14px;
+    color: var(--gray-300);
+}
+.newTask button:hover {
+    color: var(--danger);
+    background: var(--gray-400);
+}
+.svg {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+.svg svg {
+    font-size: 1.5rem;
+}
+.svg:hover {
+    background: var(--blue-dark);
+}
+.svgActive {
+    background: var(--purple-dark);
+    padding: 0.293rem;
+    font-size: 1.5rem;
+    color: var(--gray-100);
+    border: 0;
+    border-radius: 50%;
+}
+
+.svgActive:hover{
+    background: var(--purple);
+}
+
+.trash {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    justify-content:center;
+    align-items: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.trash:hover {
+    color: var(--danger);
+    background: var(--gray-400);
+}
+
+
+.containerButton {
+    margin-top: 1.5rem;
+    border: 0;
+    width: 46rem;
+    height: 4.5rem;
+    background: var(--gray-500);
+    color: var(--gray-100);
+    border-radius: 8px;
+}
+.containerButton + .containerButton {
+    margin: 0.75rem 0;
+}
+.newTask {
+    display: grid;
+    grid-template-columns: 1fr 39.5rem 1fr;
+    padding: 1rem;
+    justify-content: center;
+    font-size: 0.875rem;
+}
+
+.newTask > p {
+    text-align: left;
+    padding: 0 0.75rem
+}
+
+.taskLineActive {
+    text-decoration: line-through;
+}
+
+.taskLineInative {
+    text-decoration: initial;
+}
+
+.newTask button {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    cursor: pointer;
+    border-radius: 4px;
+    background: var(--gray-500);
+}
+.newTask button svg {
+    width: 14px;
+    height: 14px;
+    color: var(--gray-300);
+}
+.newTask button:hover {
+    color: var(--danger);
+    background: var(--gray-400);
+}
+
