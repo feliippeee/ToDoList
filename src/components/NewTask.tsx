@@ -31,7 +31,7 @@ export function NewTask({task, title, id, isChecked, handleUpdateTaskStatus, onD
                     {isChecked ? <Check className={isChecked ? styles.svgActive : ''} /> :<Circle />} 
                 </div>
             </div>
-            <p>{title}</p>
+            <p className={isChecked ? styles.taskLineActive: ''}>{ title}</p>
             <div>
                 <div className={styles.trash}>
                     <Trash size={16} weight="light" onClick={() => handleDeleteTask(id)} /> 
